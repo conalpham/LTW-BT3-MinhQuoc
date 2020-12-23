@@ -1,0 +1,31 @@
+body {
+    background-image: url('../image/Background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+#loginError {
+    font-size: small;
+    color: red;
+    font-style: italic;
+}
+
+.form {
+    width: 100%;
+    background-color: white;
+    padding: 1px 15px 15px 15px;
+    border-radius: 5px;
+}
+
+label {
+    width: 120px;
+    margin-left: 15px;
+}
